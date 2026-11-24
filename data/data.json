@@ -1,0 +1,45 @@
+{
+  "sumber": "Semua grafik bersumber dari data publik Kementerian ESDM dan kajian akademik.",
+  "charts": [
+    {
+      "id": "grafik-nasional",
+      "tipe": "doughnut",
+      "judul": "Dari mana kapasitas listrik Indonesia berasal?",
+      "sumber": "Kementerian ESDM, per Oktober 2025 (total 107 GW)",
+      "satuan": "% kapasitas",
+      "labelData": "Porsi kapasitas (%)",
+      "label": [
+        "Energi terbarukan",
+        "PLTU batu bara",
+        "Gas",
+        "Diesel"
+      ],
+      "nilai": [
+        14.4,
+        55.1,
+        24.5,
+        6.0
+      ],
+      "penjelas": "Lebih dari separuh kapasitas pembangkit kita masih PLTU batu bara, sedangkan energi terbarukan baru 14,4%."
+    },
+    {
+      "id": "grafik-gedung",
+      "tipe": "bar-horizontal",
+      "judul": "Peralatan apa yang paling banyak memakai listrik di sebuah gedung?",
+      "sumber": "Bosu dkk. (2023), dikutip dalam kajian Universitas Diponegoro",
+      "satuan": "% konsumsi",
+      "labelData": "Porsi konsumsi listrik (%)",
+      "label": [
+        "AC",
+        "Stop kontak (peralatan)",
+        "Lampu"
+      ],
+      "nilai": [
+        62,
+        25,
+        13
+      ],
+      "penjelas": "Dalam studi ini AC memakai sekitar 62% listrik gedung. Mematikan AC dan lampu di ruang kosong adalah penghematan terbesar."
+    }
+  ]
+}
