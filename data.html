@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data &amp; Fakta | Terang Tanpa Boros</title>
+<meta name="description" content="Fakta dan grafik tentang listrik dan kebiasaan hemat energi.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+ <div class="wrap">
+  <a class="brand" href="index.html">Terang <span>Tanpa</span> Boros</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="nav" id="menu" aria-label="Navigasi utama">
+   <ul>
+    <li><a href="index.html">Beranda</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+    <li><a href="data.html" aria-current="page">Data &amp; Fakta</a></li>
+    <li><a href="aksi.html">Aksi &amp; Rekomendasi</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+<main>
+ <section>
+  <div class="wrap">
+   <h1 style="font-size:clamp(2rem,6vw,3.2rem)">Data &amp; Fakta</h1>
+   <p>Ajakan hemat energi akan lebih masuk akal kalau ada buktinya. Mulai dari gambaran listrik di Indonesia, lalu bukti bahwa kebiasaan kecil di sekolah bisa berdampak nyata.</p>
+
+   <h2 style="margin-top:1.5rem">Fakta nasional</h2>
+   <ul class="stats">
+    <li class="stat"><strong>68%</strong><span>listrik nasional pada 2024 dihasilkan dari batu bara</span></li>
+    <li class="stat"><strong>55,1%</strong><span>kapasitas pembangkit Indonesia adalah PLTU batu bara</span></li>
+    <li class="stat"><strong>14,4%</strong><span>kapasitas pembangkit yang berasal dari energi terbarukan</span></li>
+    <li class="stat"><strong>Rp600&ndash;800 ribu</strong><span>tagihan listrik per bulan yang dihemat SMKN 2 Solo lewat perilaku hemat energi</span></li>
+   </ul>
+   <p class="stat-src"><small>Sumber: Kementerian ESDM, dikutip <a href="https://ekonomi.bisnis.com/read/20250630/44/1889123/jauh-dari-arang-bauran-ebt-cuma-1321-per-mei-2025">Bisnis.com (30 Juni 2025)</a>, <a href="https://ekonomi.bisnis.com/read/20251113/44/1928607/kapasitas-listrik-nasional-tembus-107-gw-porsi-ebt-baru-144">Bisnis.com (13 November 2025)</a>, <a href="https://lestari.kompas.com/read/2024/06/29/190000186/membumikan-efisiensi-energi-sejak-dini?page=1">Kompas.com (29 Juni 2024)</a>, <a href="https://eprints2.undip.ac.id/28295/2/BAB%20I.pdf">kajian Universitas Diponegoro</a> (untuk grafik peralatan gedung), dan <a href="https://koran-jakarta.com/2025-11-13/kementerian-esdm-144-persen-pembangkit-listrik-indonesia-dari-energi-bersih/amp">Koran Jakarta (13 November 2025)</a>.</small></p>
+
+   <h2 style="margin-top:2rem">Grafik data</h2>
+   <div class="chart-grid" id="chart-grid" aria-live="polite">
+    <p>Memuat grafik...</p>
+   </div>
+   <div class="cta-next">
+    <p>Sudah lihat faktanya? Sekarang saatnya bertindak.</p>
+    <a class="btn" href="aksi.html">Lihat rekomendasi &amp; aksi</a>
+   </div>
+  </div>
+ </section>
+</main>
+<footer class="site-footer">
+ <div class="wrap">
+  <p><strong>Terang Tanpa Boros</strong>: kampanye hemat energi warga sekolah.</p>
+  <p>Proyek ESD oleh <span>Kelompok 12</span>, <span>PPLG XI-2</span> &copy; <span class="tahun">2026</span></p>
+ </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="js/main.js"></script>
+<script src="data/data.js"></script>
+<script src="js/data.js"></script>
+</body>
+</html>

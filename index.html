@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beranda | Terang Tanpa Boros</title>
+<meta name="description" content="Kampanye hemat energi untuk warga sekolah: siswa, guru, dan staf.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+ <div class="wrap">
+  <a class="brand" href="index.html">Terang <span>Tanpa</span> Boros</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="nav" id="menu" aria-label="Navigasi utama">
+   <ul>
+    <li><a href="index.html" aria-current="page">Beranda</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+    <li><a href="data.html">Data &amp; Fakta</a></li>
+    <li><a href="aksi.html">Aksi &amp; Rekomendasi</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+<main>
+ <section class="hero" data-lamp="on" style="padding-top:3.5rem">
+  <div class="wrap">
+   <div>
+    <h1>Terang Tanpa Boros</h1>
+    <p class="tagline">Matikan yang Tak Perlu, Selamatkan Bumi</p>
+    <p class="hero-msg" id="pesan" aria-live="polite">Lampu menyala di ruangan yang tidak dipakai. Energi terbuang sia-sia.</p>
+    <a class="btn" href="tentang.html">Kenapa kampanye ini ada?</a>
+   </div>
+   <div class="lamp">
+    <svg class="bulb" viewBox="0 0 200 215" role="img" aria-label="Ilustrasi bohlam lampu">
+     <circle class="glow" cx="100" cy="92" r="92"/>
+     <path class="glass" d="M100 30c-38 0-66 27-66 62 0 22 11 38 24 52 7 8 10 15 10 24v6h64v-6c0-9 3-16 10-24 13-14 24-30 24-52 0-35-28-62-66-62z"/>
+     <rect class="part" x="76" y="178" width="48" height="12" rx="4"/>
+     <rect class="part" x="82" y="194" width="36" height="12" rx="4"/>
+     <path class="fil" d="M86 150l14-30 14 30"/>
+    </svg>
+    <div>
+     <button class="switch" id="saklar" role="switch" aria-checked="true">
+      <span class="knob" aria-hidden="true"></span><span id="saklar-label">Lampu ruang kosong: menyala</span>
+     </button>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="wrap">
+   <h2>Kenapa kita perlu hemat energi?</h2>
+   <p>Listrik yang kita pakai di sekolah tidak muncul begitu saja. Ada sumber daya yang dipakai untuk membuatnya, dan ada dampaknya bagi lingkungan.</p>
+   <ul class="facts">
+    <li>Sebagian besar listrik di Indonesia masih dihasilkan dari batu bara. Pada 2024 porsinya sekitar 68% dari total produksi listrik nasional, dan pembakarannya melepaskan karbon dioksida ke udara.</li>
+    <li>Lampu, kipas, AC, dan komputer yang menyala tanpa dipakai tetap menghabiskan listrik.</li>
+    <li>Energi terbarukan baru sekitar 14,4% dari kapasitas pembangkit nasional per Oktober 2025, jadi listrik yang kita hemat berarti lebih sedikit bahan bakar fosil yang dibakar.</li>
+    <li>Kebiasaan kecil yang dilakukan bersama-sama oleh banyak orang bisa menghemat energi dalam jumlah besar.</li>
+   </ul>
+   <p style="margin-top:1rem"><small>Sumber: Kementerian ESDM, dikutip <a href="https://ekonomi.bisnis.com/read/20250630/44/1889123/jauh-dari-arang-bauran-ebt-cuma-1321-per-mei-2025">Bisnis.com (30 Juni 2025)</a> untuk porsi batu bara; Kementerian ESDM, dikutip <a href="https://ekonomi.bisnis.com/read/20251113/44/1928607/kapasitas-listrik-nasional-tembus-107-gw-porsi-ebt-baru-144">Bisnis.com (13 November 2025)</a> untuk porsi energi terbarukan.</small></p>
+  </div>
+ </section>
+
+ <section class="band">
+  <div class="wrap">
+   <h2>Apa yang akan kamu temukan di sini</h2>
+   <p>Website ini berkembang bertahap. Ini alurnya.</p>
+   <ol class="flow" style="color:var(--ink)">
+    <li><h3>Kenali kampanyenya</h3><p>Kamu sedang di sini. Baca latar belakang dan tujuan kampanye.</p><span class="tag">Sudah tersedia</span></li>
+    <li><h3>Lihat faktanya</h3><p>Fakta dan data tentang listrik dan kebiasaan hemat energi.</p><span class="tag">Sudah tersedia</span> <a href="data.html">Buka halaman Data</a></li>
+    <li><h3>Ikut beraksi</h3><p>Rekomendasi dan tantangan hemat energi yang bisa kamu lakukan.</p><span class="tag">Sudah tersedia</span> <a href="aksi.html">Buka halaman Aksi</a></li>
+   </ol>
+  </div>
+ </section>
+</main>
+<footer class="site-footer">
+ <div class="wrap">
+  <p><strong>Terang Tanpa Boros</strong>: kampanye hemat energi warga sekolah.</p>
+  <p>Proyek ESD oleh <span>Kelompok 12</span>, <span>PPLG XI-2</span> &copy; <span class="tahun">2026</span></p>
+ </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
